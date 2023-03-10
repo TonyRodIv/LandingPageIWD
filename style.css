@@ -5,53 +5,75 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #DBDECD;
+    background-color: #DFE1D5;
 }
 
-.headTitulo {
+header {
+    height: 74px;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.head{
+header p {
+    font-weight: 600;
+    font-size: 1.875rem;
+}
+
+.ancoras {
     display: flex;
-    flex-direction: column;
     gap: 2rem;
 }
 
-.Titulo {
-    font-weight: 700;
-    font-size: 6.25rem;
-    text-align: center;
-    color: #313131;
+.ancoras a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 1.15rem;
 }
 
-.imagensHead {
-    display: flex;
-    justify-content: space-between;
-    gap: 3.125rem;
+.headBg {
+    background-image: url(./img/MargaretHamiltonBG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 36rem;
 }
 
-#imgStart {
+.shade {
+    width: 100%;
+    height: 100vh;
     display: flex;
+    justify-content: end;
+    background: linear-gradient(270.37deg, #313131 0.43%, rgba(49, 49, 49, 0) 98.62%);
+}
+
+.tituloP {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
     align-items: end;
+    justify-content: center;
+    margin-right: 2.5rem;
 }
 
-#imgStart img {
-    width: 35.3125rem;
-    height: 20.375rem;
-    border-radius: 0rem 5rem 5rem 0rem;
+.tituloP h3 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    text-align: right;
+
+    color: #DFE1D5;
 }
 
-#imgCenter img {
-    width: 29.8125rem;
-    height: 43.3125rem;
-    border-radius: 13.0313rem 13.0313rem 1.5625rem 1.5625rem;
+.paragrafoH{
+    width: 34rem;
 }
 
-#imgEnd img {
-    width: 35.25rem;
-    height: 19.8125rem;
-    border-radius: 5rem 0rem 0rem 5rem;
+.paragrafoH p {
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    text-align: right;
+
+    color: #DFE1D5;
 }
