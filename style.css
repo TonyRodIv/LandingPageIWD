@@ -30,9 +30,10 @@ header p {
     font-size: 1.875rem;
 }
 
-.tituloPage{
+.tituloPage {
     width: 50%;
 }
+
 .ancoras {
     display: flex;
     gap: 2rem;
@@ -120,11 +121,13 @@ header p {
 .textoCard1 h2 {
     font-weight: 700;
     font-size: 80px;
+    color: var(--titleColor1);
 }
 
 .textoCard1 p {
     font-weight: 500;
     font-size: 20px;
+    color: var(--ParagfhColor1);
 }
 
 .imgCard1 {
@@ -132,13 +135,15 @@ header p {
     width: 440px;
     height: 440px;
 }
-.imgBGCard2{
+
+.imgBGCard2 {
     height: 33rem;
     background-image: url(./img/MargWriting.jpeg);
     background-repeat: no-repeat;
     background-size: 60%;
 }
-.shadeCard2{
+
+.shadeCard2 {
     height: 33rem;
     display: flex;
     justify-content: end;
@@ -146,6 +151,7 @@ header p {
     padding: 0rem 4rem 0rem 4rem;
     background: linear-gradient(270.15deg, #f1f3e8 46.02%, rgba(239, 241, 228, 0) 99.88%);
 }
+
 .textoCard2 {
     width: 37.5rem;
     display: flex;
@@ -155,15 +161,98 @@ header p {
 
 .textoCard2 h2 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
+    color: var(--titleColor1);
     text-align: right;
 }
 
 .textoCard2 p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
+    color: var(--ParagfhColor1);
     text-align: right;
 }
-.card4{
+
+.card3 {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.center3 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+.center3 img {
+    height: 18.75rem;
+    border-radius: 100%;
+}
+
+.center3 div {
+    width: 30rem;
+}
+
+.center3 div p {
+    color: var(--ParagfhColor1);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.imgBGCard4{
     height: 33rem;
+    background-repeat: no-repeat;
+    background-size: 61%;
+    background-position: right;
+    background-image: url(./img/MargOnApollo.png);
+}
+
+.shadeCard4{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0rem 4rem 0rem 4rem;
+    background: linear-gradient(90.1deg, #1E1E1E 39.12%, rgba(49, 49, 49, 0) 99.91%);
+}
+
+.textoCard4 {
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.textoCard4 h2 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--bgColor1);
+}
+
+.textoCard4 p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--bgColor1);
+}
+footer{
+    height: 26.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #1E1E1E 0%, #17191A 17.71%);
+}
+.contentFoot img{
+    width: 18.75rem;
+}
+.contentFoot{
+    display: flex;
+    align-items: center;
+}
+.contentFoot p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--bgColor1);
 }
