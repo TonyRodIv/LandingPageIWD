@@ -4,7 +4,7 @@
 }
 
 :root {
-    --bgColor1: #DFE1D5;
+    --bgColor1: #f1f3e8;
     --titleColor1: #1E1E1E;
     --ParagfhColor1: #1E1E1E;
 }
@@ -131,4 +131,39 @@ header p {
     border-radius: 100%;
     width: 440px;
     height: 440px;
+}
+.imgBGCard2{
+    height: 33rem;
+    background-image: url(./img/MargWriting.jpeg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.shadeCard2{
+    height: 33rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0rem 4rem 0rem 4rem;
+    background: linear-gradient(270.15deg, #f1f3e8 46.02%, rgba(239, 241, 228, 0) 99.88%);
+}
+.textoCard2 {
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.textoCard2 h2 {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: right;
+}
+
+.textoCard2 p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+}
+.card4{
+    height: 33rem;
 }
