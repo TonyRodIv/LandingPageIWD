@@ -251,8 +251,13 @@ footer{
     display: flex;
     align-items: center;
 }
-.contentFoot p{
+.contentFoot a,.contentFoot p{
     font-weight: 500;
     font-size: 1.25rem;
+    text-decoration: none;
     color: var(--bgColor1);
+}
+.contentFoot a:hover{
+    font-weight: 700;
+    color: #c2d1df;
 }
